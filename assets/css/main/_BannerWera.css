@@ -1,0 +1,82 @@
+.BannerWera {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  .BannerWera .background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    -webkit-clip-path: ellipse(70% 80% at 70% 50%);
+    clip-path: ellipse(70% 80% at 70% 50%); }
+    .BannerWera .background .BGimage {
+      background-image: url(../../imgs/2.jpg);
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: cover; }
+  .BannerWera .shaneTMhero .content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 20px;
+    margin-top: 5px; }
+    .BannerWera .shaneTMhero .content .nameWrap .shaneHEad {
+      position: relative;
+      font-size: 72px;
+      font-family: "Poppins";
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #000;
+      line-height: 1.2;
+      display: inline-block;
+      overflow: hidden;
+      margin: 3px 0; }
+      .BannerWera .shaneTMhero .content .nameWrap .shaneHEad span {
+        background: transparent;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        outline: none;
+        color: transparent;
+        -webkit-text-stroke: 1px #000;
+        padding-left: 2px; }
+    .BannerWera .shaneTMhero .content .jobWrap .jobtitle {
+      font-weight: 500;
+      font-size: 17px;
+      font-family: "Roboto";
+      float: left;
+      color: #555;
+      display: contents;
+      letter-spacing: 0.5px; }
+    .BannerWera .shaneTMhero .content .sociallo {
+      margin-top: 25px; }
+      .BannerWera .shaneTMhero .content .sociallo .social {
+        list-style: none;
+        padding-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .BannerWera .shaneTMhero .content .sociallo .social .ListItem {
+          margin-right: 25px; }
+          .BannerWera .shaneTMhero .content .sociallo .social .ListItem a {
+            margin-left: 3px; }
+            .BannerWera .shaneTMhero .content .sociallo .social .ListItem a .svg {
+              font-size: 22px;
+              color: #505050;
+              -webkit-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+              transition: all 0.5s ease; }
+            .BannerWera .shaneTMhero .content .sociallo .social .ListItem a:hover .svg {
+              -webkit-transform: translateY(-8px);
+              -ms-transform: translateY(-8px);
+              transform: translateY(-8px); }
