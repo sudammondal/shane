@@ -1,0 +1,86 @@
+.LatestNewsWrap {
+    padding: 140px 0 90px;
+    .NewsContaint {
+        margin-bottom: 88px;
+        .protfolioTitlewrap {
+            .aboutMe {
+                display: inline-block;
+                background-color: rgba(0,0,0,.05);
+                text-transform: uppercase;
+                padding: 12px 12px;
+                font-weight: 600;
+                font-size: 12px;
+                color: #333;
+                font-family: "Poppins";
+                letter-spacing: 0;
+                margin-bottom: 5px;
+            }
+            .aboutHead {
+                font-weight: 800;
+                font-family: "Poppins";
+                color: #000;
+                margin: 12px 0 26px 0px;
+                font-size: 30px;
+                line-height: 1.4;
+                max-width: 490px;
+                letter-spacing: 0.4px;
+                width: 100%;
+            }
+        }
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px;
+        .LatestNewsItems {
+            cursor: pointer;
+            .NewsThamnil {
+                padding-bottom: 23px;
+                .NewsImg {
+                    overflow: hidden;
+                    .ThamnilIMG {
+                        transition: all 1s cubic-bezier(0,0,.1,1);
+                    }
+                }
+                
+                
+            }
+            .NewsHeahLine {
+                .HeadNews {
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: 600;
+                    display: inline-block;
+                    transition: all .3s ease;
+                    cursor: pointer;
+                    line-height: 1.4;
+                    font-family: "Poppins";
+                }
+                .NewsPrah {
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    color: #767676;
+                    font-style: italic;
+                    font-weight: 400;
+                    .leftSpan {
+                        margin-left: 11px;
+                    }
+    
+                }
+            }  
+            &:hover {
+                .NewsThamnil {
+                    .NewsImg {
+                        .ThamnilIMG {
+                            transform: scale(1.1) rotate(3deg);
+                        }
+                    }
+                    
+                }
+            }   
+        }
+    }
+    
+}

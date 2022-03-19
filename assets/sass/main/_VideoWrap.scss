@@ -1,0 +1,88 @@
+.VideoWrap {
+    position: relative;
+    background-image: url(../imgs/1bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+    }
+    .VideoContaint {
+        .content {
+                width: 100%;
+                height: auto;
+                clear: both;
+                float: left;
+                position: relative;
+                margin: 0 auto;
+                text-align: center;
+                padding: 150px 0;
+                .rounded {
+                    width: 100px;
+                    height: 100px;
+                    display: block;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 100% !important;
+                    background-color: #fff;
+                    margin-bottom: 45px;
+                    cursor: pointer;
+                    transition: all 1s cubic-bezier(0,0,.2,1);
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        border-color: transparent transparent transparent #000;
+                        border-style: solid;
+                        border-width: 13px 0 13px 26px;
+                        top: 50%;
+                        left: 50%;
+                        margin-left: 4px;
+                        transform: translate(-50%,-50%);
+    
+                    }
+                    &:hover {
+                        transform: translateX(-50%) scale3d(1.15,1.15,1.15);
+                    }
+                }
+               
+            .textViedioTitle {
+                color: #fff;
+                font-family: "Poppins";
+                font-size: 30px;
+                max-width: 600px;
+                margin: 0 auto 50px;
+                font-weight: 800;
+                line-height: 1.4;
+            }
+            .VedioBatton {
+                .popupYoutube {
+                    color: #000;
+                    background-color: #fff;
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: transparent;
+                    display: inline-block;
+                    padding: 16px 50px;
+                    border: 2px solid #fff;
+                    font-family: "Poppins";
+                    cursor: pointer;
+                    transition: all .5s cubic-bezier(0,0,.1,1);
+                    &:hover {
+                        color: #000;
+                        background-color: #fff;
+                        transform: translateY(-3px);
+                    }
+                }
+            }
+        }
+    }
+}

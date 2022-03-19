@@ -1,0 +1,27 @@
+.brandWrap {
+    padding: 90px 0 90px !important;
+    .brand_item {
+        text-align: center;
+        width: 200px ;
+        .IMGS {
+            max-width: 200px;
+            max-height: 200px;
+            width: 200px;
+        }
+
+    }
+}
+.slick-list,.draggable {
+    margin: 0 20px;
+    .IMGS {
+         width: 200px;
+         margin-left: 75px;
+         margin-right: 75px;
+         opacity: .5; 
+         transition: all 0.5s ease;
+         cursor: pointer;
+         &:hover {
+            opacity: 1;
+         }
+     }
+ }

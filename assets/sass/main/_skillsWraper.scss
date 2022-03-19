@@ -1,0 +1,72 @@
+.skillsWraper {
+    padding: 150px 0;
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 50px;
+        .skillsMain {
+            .aboutHead {
+                font-weight: 800;
+                font-family: "Poppins";
+                color: #000;
+                margin: 12px 0 26px 0px;
+                font-size: 30px;
+                line-height: 1.4;
+                max-width: 490px;
+                letter-spacing: 0.4px;
+                width: 100%;
+            }
+            .aboutprag {
+                margin-bottom: 40px;
+            }
+        }
+        .skillsMainInner {
+            padding-top: 15px;
+            .progress-element {
+                .mBottom {
+                    margin-bottom: 36px;
+                    padding-left: 50px;
+                    .skill-info {
+                        display: block;
+                        margin-bottom: 8px;
+                        .skill-val {
+                            float: right;
+                            .counter {
+                                font-size: 15px;
+                                font-weight: 600;
+                                color: #000000d6;
+                            }
+                        }
+                        .skill-name {
+                            display: inline-block;
+                            margin: 0;
+                            font-size: 15px;
+                            font-weight: 600;
+                            color: #000000d6;
+                        }
+                    }
+                    .bt-skill {
+                        .bt-skillholder {
+                            background: #e7ebf1;
+                            display: block;
+                            height: 4px;
+                            width: 100%;
+                            position: relative;
+                            .bt-skillbar {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                height: 4px;
+                                float: left;
+                                background-color: #000;
+                                border-radius: 15px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,9 @@
+.brandWrap {
+  padding: 90px 0 90px !important; }
+  .brandWrap .brand_item {
+    text-align: center;
+    width: 200px !important; }
+    .brandWrap .brand_item .IMGS {
+      max-width: 200px;
+      max-height: 200px;
+      width: 200px !important; }
