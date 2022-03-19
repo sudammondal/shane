@@ -2,8 +2,22 @@
   padding: 90px 0 90px !important; }
   .brandWrap .brand_item {
     text-align: center;
-    width: 200px !important; }
+    width: 200px; }
     .brandWrap .brand_item .IMGS {
       max-width: 200px;
       max-height: 200px;
-      width: 200px !important; }
+      width: 200px; }
+
+.slick-list, .draggable {
+  margin: 0 20px; }
+  .slick-list .IMGS, .draggable .IMGS {
+    width: 200px;
+    margin-left: 75px;
+    margin-right: 75px;
+    opacity: .5;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer; }
+    .slick-list .IMGS:hover, .draggable .IMGS:hover {
+      opacity: 1; }

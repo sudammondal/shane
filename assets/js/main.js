@@ -32,7 +32,7 @@ $(document).ready(function() {
     //=============== latest news ==========//
     $('.slider_main').slick({
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         infinite: true,
         speed: 1500,
@@ -73,7 +73,7 @@ $(document).ready(function() {
 
     $('.TestimonalSlider').slick({
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         infinite: true,
         speed: 1300,

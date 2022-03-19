@@ -160,7 +160,7 @@ p {
     -webkit-clip-path: ellipse(70% 80% at 70% 50%);
     clip-path: ellipse(70% 80% at 70% 50%); }
     .BannerWera .background .BGimage {
-      background-image: url(/assets/imgs/2.jpg);
+      background-image: url(../imgs/Banner.jpg);
       position: absolute;
       right: 0;
       top: 0;
@@ -168,7 +168,9 @@ p {
       left: 0;
       background-repeat: no-repeat;
       background-position: 50%;
-      background-size: cover; }
+      background-size: cover;
+      width: 100%;
+      height: 100%; }
   .BannerWera .shaneTMhero .content {
     position: absolute;
     top: 50%;

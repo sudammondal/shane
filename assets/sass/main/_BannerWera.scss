@@ -11,7 +11,7 @@
         width: 50%;
         clip-path: ellipse(70% 80% at 70% 50%);
         .BGimage {
-            background-image: url(../../imgs/2.jpg);
+            background-image: url(../imgs/Banner.jpg);
             position: absolute;
             right: 0;
             top: 0;
@@ -20,9 +20,11 @@
             background-repeat: no-repeat;
             background-position: 50%;
             background-size: cover;
+            width: 100%;
+            height:100%;
         }
     }
-    
+
     .shaneTMhero {
         .content {
             position: absolute;

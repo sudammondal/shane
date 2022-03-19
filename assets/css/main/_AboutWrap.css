@@ -1,0 +1,49 @@
+.AboutWrap {
+  padding: 150px 0; }
+  .AboutWrap .aboutHeroImg .aboutimg {
+    -webkit-box-shadow: 0 0 40px #5454544d;
+    box-shadow: 0 0 40px #5454544d; }
+  .AboutWrap .aboutmMainContint {
+    padding: 40px 0 50px 40px; }
+    .AboutWrap .aboutmMainContint .aboutMe {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.05);
+      text-transform: uppercase;
+      padding: 12px 12px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #333;
+      font-family: "Poppins";
+      letter-spacing: 0;
+      margin-bottom: 5px; }
+    .AboutWrap .aboutmMainContint .aboutHead {
+      font-weight: 800;
+      font-family: "Poppins";
+      color: #000;
+      margin: 12px 0 26px 0px;
+      font-size: 30px;
+      line-height: 1.4;
+      max-width: 490px;
+      letter-spacing: 0.4px;
+      width: 100%; }
+    .AboutWrap .aboutmMainContint .aboutprag {
+      margin-bottom: 40px; }
+    .AboutWrap .aboutmMainContint .DownloadWrap .Download {
+      text-decoration: none;
+      color: #fff;
+      background-color: #000;
+      display: inline-block;
+      padding: 13px 48px;
+      border: 2px solid #000;
+      font-family: "Poppins";
+      -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
+      -o-transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
+      transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
+      cursor: pointer;
+      letter-spacing: 0.09px; }
+      .AboutWrap .aboutmMainContint .DownloadWrap .Download:hover {
+        color: #000;
+        background-color: #fff;
+        -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        transform: translateY(-3px); }
