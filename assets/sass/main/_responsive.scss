@@ -1,239 +1,239 @@
-// Large devices (desktops, 992px and up)
-@media (max-width: 1024px) {
-    .BannerWera {
-        height: 70vh;
-        .shaneTMhero {
-            .content {
-                .nameWrap {
-                    .shaneHEad {
-                        font-size: 35px;
-                    }
-                }
-            }
-        }
-    }
-    img.aboutimg{
-        width: 100%;
-    }
+// // Large devices (desktops, 992px and up)
+// @media (max-width: 1024px) {
+//     .BannerWera {
+//         height: 70vh;
+//         .shaneTMhero {
+//             .content {
+//                 .nameWrap {
+//                     .shaneHEad {
+//                         font-size: 35px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     img.aboutimg{
+//         width: 100%;
+//     }
     
-    .AboutWrap {
-        .aboutmMainContint {
-            padding-left: 0;
-            .aboutHead {
-                max-width: 100%;
-            }
-        }
-    }
+//     .AboutWrap {
+//         .aboutmMainContint {
+//             padding-left: 0;
+//             .aboutHead {
+//                 max-width: 100%;
+//             }
+//         }
+//     }
    
-    .skillsWraper {
-        .grid-container {
-            grid-template-columns: auto;
-            .skillsMainInner {
-                .progress-element {
-                    .mBottom {
-                        padding-left: 0px;
-                    } 
-                }
-            }
-        }
-    }
+//     .skillsWraper {
+//         .grid-container {
+//             grid-template-columns: auto;
+//             .skillsMainInner {
+//                 .progress-element {
+//                     .mBottom {
+//                         padding-left: 0px;
+//                     } 
+//                 }
+//             }
+//         }
+//     }
     
-    .brandWrap {
-        .brand_item {
-            margin-left: 33px;
-        }
-    }
+//     .brandWrap {
+//         .brand_item {
+//             margin-left: 33px;
+//         }
+//     }
     
-    .slick-list.draggable {
-        margin-left: 0;
-    }
-    .LatestNewsWrap {
-        .grid-container {
-            grid-template-columns: auto auto;
-        }
-    }
-    .LatsWorkWrap {
-        .LetsWork {
-            .latsWorkTitle {
-                .latsWorkHead {
-                    font-size: 50px;
-                }
-            }
-        }
-    }
+//     .slick-list.draggable {
+//         margin-left: 0;
+//     }
+//     .LatestNewsWrap {
+//         .grid-container {
+//             grid-template-columns: auto auto;
+//         }
+//     }
+//     .LatsWorkWrap {
+//         .LetsWork {
+//             .latsWorkTitle {
+//                 .latsWorkHead {
+//                     font-size: 50px;
+//                 }
+//             }
+//         }
+//     }
     
-}
+// }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
-    .LatsWorkWrap {
-        .TopBg {
-            top: -7px;
-        }
-    }
-    .skillsWraper {
-        .grid-container {
-            .skillsMainInner {
-                .progress-element {
-                    .mBottom {
-                        margin: 18px 15px;
-                    }
-                }
-            }
-        }
-    }
-    div#bt-ourskill {
-        margin: 0 15px;
-    }
-    .protfolio {
-        .filterMain {
-            .filter_manu {
-                margin-bottom: 15px;
-            }
-        }
-    }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (max-width: 576px) {
+//     .LatsWorkWrap {
+//         .TopBg {
+//             top: -7px;
+//         }
+//     }
+//     .skillsWraper {
+//         .grid-container {
+//             .skillsMainInner {
+//                 .progress-element {
+//                     .mBottom {
+//                         margin: 18px 15px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     div#bt-ourskill {
+//         margin: 0 15px;
+//     }
+//     .protfolio {
+//         .filterMain {
+//             .filter_manu {
+//                 margin-bottom: 15px;
+//             }
+//         }
+//     }
+// }
 
-@media (max-width: 420px) {
-    .header {
-        padding: 10px 25px;
-        position: unset;
-    }
+// @media (max-width: 420px) {
+//     .header {
+//         padding: 10px 25px;
+//         position: unset;
+//     }
    
-    .BannerWera { 
-        height: 30vh;
-        .background {
-            width: 100%;
-            .BGimage {
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-color: #000000b0;
-                }
+//     .BannerWera { 
+//         height: 30vh;
+//         .background {
+//             width: 100%;
+//             .BGimage {
+//                 &::before {
+//                     content: "";
+//                     position: absolute;
+//                     top: 0;
+//                     left: 0;
+//                     width: 100%;
+//                     height: 100%;
+//                     background-color: #000000b0;
+//                 }
     
-            }
+//             }
            
-        }
-        .shaneTMhero{
-            .content {
-                .nameWrap {
-                    .shaneHEad {
-                        color: #fff;
-                        span {
-                            -webkit-text-stroke: 1px #fff;
-                        }
-                    } 
-                }
-                .jobWrap {
-                    .jobtitle {
-                        color: #cfcfcf; 
-                    }
-                }
+//         }
+//         .shaneTMhero{
+//             .content {
+//                 .nameWrap {
+//                     .shaneHEad {
+//                         color: #fff;
+//                         span {
+//                             -webkit-text-stroke: 1px #fff;
+//                         }
+//                     } 
+//                 }
+//                 .jobWrap {
+//                     .jobtitle {
+//                         color: #cfcfcf; 
+//                     }
+//                 }
       
-                .sociallo {
-                    .social {
-                        .ListItem {
-                            margin-right: 20px;
-                            a {
-                                .svg {
-                                    color: #c5c5c5;
-                                } 
-                            }
+//                 .sociallo {
+//                     .social {
+//                         .ListItem {
+//                             margin-right: 20px;
+//                             a {
+//                                 .svg {
+//                                     color: #c5c5c5;
+//                                 } 
+//                             }
                             
-                        }
-                    }
-                }
-            }
-        }
-    }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
   
-    .AboutWrap {
-        padding: 60px 0;
-    }
-    .protfolio {
-        padding: 60px 0;
-        .protflioMainWrap {
-            margin-bottom: 30px;
-            .protfolioTitlewrap {
-                .aboutHead {
-                    margin: 12px 0 35px 0px;
-                } 
-            }
-        }
+//     .AboutWrap {
+//         padding: 60px 0;
+//     }
+//     .protfolio {
+//         padding: 60px 0;
+//         .protflioMainWrap {
+//             margin-bottom: 30px;
+//             .protfolioTitlewrap {
+//                 .aboutHead {
+//                     margin: 12px 0 35px 0px;
+//                 } 
+//             }
+//         }
 
-        .filterMain {
-            .filter_manu {
-                margin-bottom: 0;
-                .filter_list {
-                    cursor: pointer;
-                    margin-right: 5px;
-                }
-            }
-        }
+//         .filterMain {
+//             .filter_manu {
+//                 margin-bottom: 0;
+//                 .filter_list {
+//                     cursor: pointer;
+//                     margin-right: 5px;
+//                 }
+//             }
+//         }
     
-        .filter_item {
-            margin: 15px;
-        }
-    }
-    .skillsWraper {
-        padding: 60px 0;
-    }
-    .VideoWrap{
-        .VideoContaint {
-            .content {
-                padding: 100px 0;
-            }
-        }
-    }
-    .brandWrap {
-        padding: 50px 0 50px !important;
-    }
-    .TestimonialeWrap {
-        padding: 60px 0;
-    }
-    .LatestNewsWrap {
-        padding: 60px 0 50px;
-    }
-    .LatsWorkWrap {
-        padding: 100px 0 100px;
-        .TopBg {
-            top: -10px;
-        }
-        .grid-container {
-            grid-template-columns: auto;
-        }
-    }
+//         .filter_item {
+//             margin: 15px;
+//         }
+//     }
+//     .skillsWraper {
+//         padding: 60px 0;
+//     }
+//     .VideoWrap{
+//         .VideoContaint {
+//             .content {
+//                 padding: 100px 0;
+//             }
+//         }
+//     }
+//     .brandWrap {
+//         padding: 50px 0 50px !important;
+//     }
+//     .TestimonialeWrap {
+//         padding: 60px 0;
+//     }
+//     .LatestNewsWrap {
+//         padding: 60px 0 50px;
+//     }
+//     .LatsWorkWrap {
+//         padding: 100px 0 100px;
+//         .TopBg {
+//             top: -10px;
+//         }
+//         .grid-container {
+//             grid-template-columns: auto;
+//         }
+//     }
     
-}
+// }
 
-@media (max-width: 320px) {
-    .BannerWera {
-        height: 30vh;
-    }
-    .protfolio {
-        .filterMain {
-            .filter_manu {
-                display: block;
-            }
-        }
-    }
-    .protfolio {
-        .filterMain {
-            .filter_manu {
-                .filter_list.active {
-                    margin-bottom: 15px;
-                }
-            }
-        }
-    }
-    .footerWrap {
-        .footerPrag {
-            margin-right: 15px;
-            margin-left: 15px;
-        }
-    }
-}
+// @media (max-width: 320px) {
+//     .BannerWera {
+//         height: 30vh;
+//     }
+//     .protfolio {
+//         .filterMain {
+//             .filter_manu {
+//                 display: block;
+//             }
+//         }
+//     }
+//     .protfolio {
+//         .filterMain {
+//             .filter_manu {
+//                 .filter_list.active {
+//                     margin-bottom: 15px;
+//                 }
+//             }
+//         }
+//     }
+//     .footerWrap {
+//         .footerPrag {
+//             margin-right: 15px;
+//             margin-left: 15px;
+//         }
+//     }
+// }
