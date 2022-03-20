@@ -941,26 +941,28 @@ p {
   .header {
     padding: 10px 25px;
     position: unset; }
-  .BannerWera .background {
-    width: 100%; }
-    .BannerWera .background .BGimage::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #000000b0; }
-  .BannerWera .shaneTMhero .content .nameWrap .shaneHEad {
-    color: #fff; }
-    .BannerWera .shaneTMhero .content .nameWrap .shaneHEad span {
-      -webkit-text-stroke: 1px #fff; }
-  .BannerWera .shaneTMhero .content .jobWrap .jobtitle {
-    color: #cfcfcf; }
-  .BannerWera .shaneTMhero .content .sociallo .social .ListItem {
-    margin-right: 20px; }
-    .BannerWera .shaneTMhero .content .sociallo .social .ListItem a .svg {
-      color: #c5c5c5; }
+  .BannerWera {
+    height: 30vh; }
+    .BannerWera .background {
+      width: 100%; }
+      .BannerWera .background .BGimage::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000b0; }
+    .BannerWera .shaneTMhero .content .nameWrap .shaneHEad {
+      color: #fff; }
+      .BannerWera .shaneTMhero .content .nameWrap .shaneHEad span {
+        -webkit-text-stroke: 1px #fff; }
+    .BannerWera .shaneTMhero .content .jobWrap .jobtitle {
+      color: #cfcfcf; }
+    .BannerWera .shaneTMhero .content .sociallo .social .ListItem {
+      margin-right: 20px; }
+      .BannerWera .shaneTMhero .content .sociallo .social .ListItem a .svg {
+        color: #c5c5c5; }
   .AboutWrap {
     padding: 60px 0; }
   .protfolio {
