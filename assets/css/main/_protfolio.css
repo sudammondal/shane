@@ -1,0 +1,206 @@
+.protfolio {
+  padding: 105px 0 150px;
+  background-color: #f5f5f5a1; }
+  .protfolio .protflioMainWrap {
+    margin-bottom: 48px; }
+    .protfolio .protflioMainWrap .protfolioTitlewrap .aboutMe {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.05);
+      text-transform: uppercase;
+      padding: 12px 12px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #333;
+      font-family: "Poppins";
+      letter-spacing: 0;
+      margin-bottom: 5px; }
+    .protfolio .protflioMainWrap .protfolioTitlewrap .aboutHead {
+      font-weight: 800;
+      font-family: "Poppins";
+      color: #000;
+      margin: 12px 0 26px 0px;
+      font-size: 30px;
+      line-height: 1.4;
+      max-width: 490px;
+      letter-spacing: 0.4px;
+      width: 100%; }
+  .protfolio .filterMain {
+    margin-bottom: 0px;
+    float: right;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .protfolio .filterMain .filter_manu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      margin-bottom: 28px; }
+      .protfolio .filterMain .filter_manu .filter_list {
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: .5px;
+        margin-right: 15px;
+        text-decoration: none;
+        color: #080808;
+        font-family: "Poppins";
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+        padding: 0 10px;
+        display: inline-block;
+        -webkit-transition: .3s ease-in;
+        -o-transition: .3s ease-in;
+        transition: .3s ease-in;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+        .protfolio .filterMain .filter_manu .filter_list .f_link {
+          -webkit-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          text-decoration: none; }
+        .protfolio .filterMain .filter_manu .filter_list:last-child {
+          margin-right: 0; }
+        .protfolio .filterMain .filter_manu .filter_list:hover .f_link {
+          color: #000000; }
+        .protfolio .filterMain .filter_manu .filter_list.active {
+          background-color: black; }
+          .protfolio .filterMain .filter_manu .filter_list.active .f_link {
+            color: #ffffff; }
+  .protfolio .filter_item {
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    overflow: hidden;
+    margin: 13px 13px 43px 13px; }
+    .protfolio .filter_item .filter_img {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      -webkit-transition: .5s ease;
+      -o-transition: .5s ease;
+      transition: .5s ease; }
+      .protfolio .filter_item .filter_img .icon_link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease; }
+      .protfolio .filter_item .filter_img img {
+        -webkit-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out; }
+    .protfolio .filter_item .text_item {
+      -webkit-transition: .5s ease;
+      -o-transition: .5s ease;
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1; }
+      .protfolio .filter_item .text_item .item {
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        color: #fff;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        margin: 0;
+        -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+        transform: translateY(60px);
+        text-transform: capitalize;
+        cursor: pointer; }
+        .protfolio .filter_item .text_item .item .spanUnderline {
+          position: relative; }
+          .protfolio .filter_item .text_item .item .spanUnderline::before {
+            position: absolute;
+            content: "";
+            bottom: -3px;
+            right: auto;
+            width: 0%;
+            height: 1px;
+            background: #000;
+            opacity: 0;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s; }
+          .protfolio .filter_item .text_item .item .spanUnderline.active::before, .protfolio .filter_item .text_item .item .spanUnderline:hover::before {
+            width: 100%;
+            right: 0;
+            left: 0;
+            opacity: 1; }
+        .protfolio .filter_item .text_item .item .itemSpan {
+          font-family: "Poppins";
+          font-weight: 500;
+          color: #000;
+          float: right;
+          font-size: 15px; }
+    .protfolio .filter_item:hover {
+      background-color: #0000003f; }
+      .protfolio .filter_item:hover .text_item {
+        opacity: 1; }
+      .protfolio .filter_item:hover .filter_img {
+        opacity: 0.3; }
+        .protfolio .filter_item:hover .filter_img img {
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+      .protfolio .filter_item:hover .item {
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px); }
+  .protfolio .imagelightbox-arrow-left:before {
+    content: "\f0d9" !important;
+    border: 0px !important;
+    font-family: 'FontAwesome';
+    font-size: 50px; }
+  .protfolio .imagelightbox-arrow-right::before {
+    content: "\f0da" !important;
+    border: 0px !important;
+    font-family: 'FontAwesome';
+    font-size: 50px; }
+  .protfolio .imagelightbox-arrow {
+    background-color: transparent;
+    color: #ddd;
+    outline: none;
+    cursor: pointer; }
+    .protfolio .imagelightbox-arrow:focus, .protfolio .imagelightbox-arrow:hover {
+      background-color: transparent;
+      color: #fff;
+      outline: none; }
+  .protfolio .imagelightbox-close {
+    background-color: transparent; }
+    .protfolio .imagelightbox-close:after, .protfolio .imagelightbox-close:before {
+      background-color: #ddd; }
+    .protfolio .imagelightbox-close:hover {
+      background-color: transparent; }
+      .protfolio .imagelightbox-close:hover:after, .protfolio .imagelightbox-close:hover:before {
+        background-color: #fff; }
+  .protfolio .imagelightbox-overlay {
+    background-color: #0c0c0ce6 !important; }

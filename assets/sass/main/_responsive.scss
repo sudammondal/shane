@@ -63,6 +63,22 @@
     }
     
 }
+@media (max-width: 990px) {
+    .header {
+        .navbar {
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .NavLink {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {

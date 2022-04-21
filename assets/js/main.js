@@ -8,8 +8,6 @@ $(document).ready(function() {
         }
     });
 
-
-
       // up icon js //
       $('.up_icon a[href^="#"],.main_manu li a[href^="#"],.scroll_down a[href^="#"]').on('click', function(event) {
         var target = $(this.getAttribute('href'));
@@ -169,27 +167,29 @@ $(document).ready(function() {
     MagnificPopup
 
     //=============== latest news ==========//
-   
 
+   
 });
 
-try {
-    jQuery('#bt-ourskill').appear(function() {
-        jQuery('.bt-skillholder,.jgguhh,.btskilto').each(function() {
-            jQuery(this).find('.bt-skillbar,.btskil,.btskilto').animate({
-                width: jQuery(this).attr('data-percent')
-            }, 2500);
-        });
-    });
-} catch (err) {}
 
-function counting_data() {
-    var counter = $(".counter");
-    if (counter.length) {
-        counter.counterUp({
-            delay: 10,
-            time: 1200
+ try {
+        jQuery('#bt-ourskill').appear(function() {
+            jQuery('.bt-skillholder,.jgguhh,.btskilto').each(function() {
+                jQuery(this).find('.bt-skillbar,.btskil,.btskilto').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 2500);
+            });
         });
+    } catch (err) {}
+    
+    function counting_data() {
+        var counter = $(".counter");
+        if (counter.length) {
+            counter.counterUp({
+                delay: 10,
+                time: 1200
+            });
+        }
     }
-}
-counting_data();
+    counting_data();
+   

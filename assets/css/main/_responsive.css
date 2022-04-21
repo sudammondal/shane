@@ -24,6 +24,10 @@
   .LatsWorkWrap .LetsWork .latsWorkTitle .latsWorkHead {
     font-size: 50px; } }
 
+@media (max-width: 990px) {
+  .header .navbar .collapse .navbar-nav .nav-item .NavLink {
+    margin-right: 0px; } }
+
 @media (max-width: 576px) {
   .LatsWorkWrap .TopBg {
     top: -7px; }
